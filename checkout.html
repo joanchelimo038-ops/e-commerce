@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Online Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <h1>Online Shop</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="checkout.html" style="color:#28a745; font-weight:bold">Checkout</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Checkout</h2>
+        <p>Complete your purchase by filling in the details below</p>
+        <div class="checkout-container">
+            <div class="billing-form">
+                <h3>Billing details</h3>
+                <form id="checkoutform">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>First Name<span class="required">:</span></label>
+                            <input type="text" placeholder="Joan" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Last Name<span class="required">:</span></label>
+                            <input type="text" placeholder="Wanjiru" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Adress<span class="required">:</span></label>
+                            <input type="text" placeholder="Joan@gmail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number<span class="required">:</span></label>
+                            <input type="text" placeholder="+254123456789" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Shipping Adress<span class="required">:</span></label>
+                            <textarea placeholder="city,postal code,street" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>city<span class="required">:</span></label>
+                            <input type="text" placeholder="Eldoret" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Postal code</label>
+                            <input type="text" placeholder="30100" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Country<span class="required">:</span></label>
+                            <select required>
+                                <option value="">select country</option>
+                                <option value="KE">Kenya</option>
+                                <option value="UG">Uganda</option>
+                                <option value="TZ">Tanzania</option>
+                                <option value="NG">Somalia</option>
+                                <option value="RW">Rwanda</option>
+                                <option value="so">Somalia</option>
+                            </select>
+                             <div class="form-group">
+                                <label>Order Notes(optional)</label>
+                                <textarea placeholder="special delivery instructions or notes about your order"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
